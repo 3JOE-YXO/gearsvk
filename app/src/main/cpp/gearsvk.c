@@ -77,7 +77,7 @@ vkk_platformInfo_t VKK_PLATFORM_INFO =
 		.minor = 0,
 		.patch = 23,
 	},
-	.app_dir     = "GearsVK",
+	.app_dir     = ".local/share/gearsvk",
 	.onCreate    = gearsvk_onCreate,
 	.onDestroy   = gearsvk_onDestroy,
 	.onPause     = gearsvk_onPause,
