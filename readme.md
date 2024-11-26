@@ -26,9 +26,8 @@ Clone Project
 
 Clone the GearsVK project https://github.com/jeffboody/gearsvk.
 
-	git clone git@github.com:jeffboody/gearsvk.git
-	git checkout -b main origin/main
-	git submodule update
+	git clone --recursive https://github.com/3JOE-YXO/gearsvk.git
+
 
 Linux
 -----
@@ -70,7 +69,6 @@ Linux
 
 Command line
 
-	source profile
 	cd app/src/main/cpp
 	make
 	./gearsvk
